@@ -8,16 +8,176 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-    font-family: 'Manrope', sans-serif;
-</style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        font-family: 'Manrope',
+        sans-serif;
+    </style>
 
 </head>
 
 <body>
+    <header>
+        <!--navbar section-->
+        <div class="navbar  bg-base-100">
+            <div class="navbar-start px-20">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-xl font-extrabold text-4xl">Hockey's</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal ">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <img class="px-5 " src="Images/Frame.jpg" alt="">
+                <a class="btn bg-error mr-20 text-white">Get Ticket</a>
+            </div>
+        </div>
+        </div>
+        <!--Banner section-->
 
+        <div class="carousel w-full  px-24">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img class="w-full" src="Images/1.png" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <section class="">
+            <H2 class="text-3xl py-5 font-extrabold text-center py-10"> Professional Hockeys Club</H2>
+            <p class="text-base font-medium text-center py-3">Teddington is the oldest hockey club in the world and a
+                large and thriving club based in Teddington, Middlesex..
+                <br>
+                We have over 700 senior and junior members ...
+            </p>
+        </section>
+
+        <section class=" sm:grid grid-cols-1  lg:grid grid-cols-4 px-64 py-24 ">
+            <!--first progress-->
+            <div class="">
+                <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</ div>
+
+                </div>
+                <h3 class="text-2xl">Prayer Facility</h3>
+                <p>Winchester Hockey Club is an all inclusive
+                    <br>
+                    club run by members and volunteers.
+                </p>
+                </div>
+                <!--second progress-->
+                <div class="">
+                    <div class="radial-progress text-orange-600" style="--value:85;" role="progressbar">85%</ div>
+
+                    </div>
+                    <h3 class="text-2xl">Prayer Facility</h3>
+                    <p>Winchester Hockey Club is an all inclusive
+                        <br>
+                        club run by members and volunteers.
+                    </p>
+                    </div>
+                    <!--third progress-->
+                    <div class="">
+                        <div class="radial-progress text-teal-300" style="--value:90;" role="progressbar">90%</ div>
+
+                        </div>
+                        <h3 class="text-2xl">Prayer Facility</h3>
+                        <p>Winchester Hockey Club is an all inclusive
+                            <br>
+                            club run by members and volunteers.
+                        </p>
+                        </div>
+                        <!--fourth progress-->
+                        <div class="">
+                            <div class="radial-progress text-error" style="--value:95;" role="progressbar">95%</ div>
+
+                            </div>
+                            <h3 class="text-2xl">Prayer Facility</h3>
+                            <p>Winchester Hockey Club is an all inclusive
+                                <br>
+                                club run by members and volunteers.
+                            </p>
+                            </div>
+        </section>
+        <section class="">
+            <H2 class="text-3xl py-5 font-extrabold text-center py-10"> Program Section</H2>
+            <p class="text-base font-medium text-center py-3">Teddington is the oldest hockey club in the world and a
+                large and thriving club based in Teddington, Middlesex..
+                <br>
+                We have over 700 senior and junior members ...
+            </p>
+        </section>
+
+        <!--programmers section-->
+        
+        <section>
+           <div class="flex px-24 py-5 gap-10 ">
+           <div class="hero  min-h-screen " style="background-image: url(Images/2.png);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-left text-neutral-content">
+    <div class="max-w-md ">
+      <h1 class="mb-5  text-5xl font-extrabold ">Junior Program</h1>
+      <p class="mb-5 font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <button class="btn btn-error font-bold text-sm text-white w-auto">Register Now!</button>
+    </div>
+  </div>
+</div>
+
+            <div class="hero min-h-screen" style="background-image: url(Images/3.png);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-left text-neutral-content">
+    <div class="max-w-md ">
+      <h1 class="mb-5 text-5xl font-extrabold">Junior Program</h1>
+      <p class="mb-5 font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <button class="btn btn-error font-bold text-sm text-white w-auto">Register Now!</button>
+    </div>
+  </div>
+</div>
+</div> 
+<div class="px-24 mt-5 ">
+<div class="hero min-h-screen " style="background-image: url(Images/4.png);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-bottom-left text-neutral-content">
+    <div class="max-w-md ">
+      <h1 class="mb-5 text-5xl font-extrabold">Junior Program</h1>
+      <p class="mb-5 font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <button class="btn btn-error font-bold text-sm text-white w-auto">Register Now!</button>
+    </div>
+  </div>
+</div>
+</div> 
+        </section>
+    </body>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
